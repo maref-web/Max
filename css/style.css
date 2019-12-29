@@ -142,18 +142,6 @@ h3
 	margin-top: 25px;
 	margin-bottom: 55px;
 }
-.burger_menu_social_links
-{
-	margin-left: 95px;
-}
-.burger_menu_social_links_item
-{
-	margin-left: 20px;
-}
-.burger_menu_social_links_item:hover
-{
-	text-decoration: none;
-}
 .h_body
 {
 	margin-top: 180px;
@@ -273,6 +261,8 @@ h3
 	max-width: 560px;
 	width: 100%;
 	margin: 0 auto;
+	display:flex;
+	flex-direction: column;
 }
 .hire_us_input
 {
@@ -941,6 +931,71 @@ h3
 }
 .h_continue {
 	font-size: 21px;
+}
+/*Header hire us form*/
+.bg_hire_us_form {
+    width: 80%;
+    height: 600px;
+    margin-top:0;
+}
+.hire_us_close {
+    position: absolute;
+    right: 6px;
+    top: 2px;
+}
+.hire_us_close_img
+{
+	display: inline-block;
+	background: url(../img/hire_us_close.png);
+	cursor:pointer;
+	width: 38px;
+}
+.hire_us_form_text_container
+{
+	max-width: 470px;
+	width: 100%;
+	margin: 0 auto;
+}
+.hire_us_form_text_container h2
+{
+	margin-bottom: 0;
+}
+.hire_us_form_title {
+    font-size: 32px;
+    padding-top: 1%;
+}
+.hire_us_form_under_title
+{
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+.hire_us_form_inputs_container
+{
+	max-width: 98%;
+	margin: 0 auto;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.hire_us_input
+{
+	width: 48%;
+	height: 50px;
+	margin-bottom: 2%;
+}
+.hire_us_input:nth-child(2)
+{
+	margin-left: 1%;
+}
+.hire_us_textarea {
+    width: 80%;
+    height: 160px;
+    margin:0 auto;
+}
+.hire_us_submit_btn
+{
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 2%;
 }
 	/*Section-4*/
 .s4_img_item {
