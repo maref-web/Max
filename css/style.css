@@ -934,7 +934,7 @@ h3
 }
 /*Header hire us form*/
 .bg_hire_us_form {
-    min-width: 106%;
+    min-width: 90%;
     height: 600px;
     margin-top:0;
 }
@@ -1019,6 +1019,11 @@ h3
 }
 .h_continue {
 	font-size: 17px;
+}
+.bg_hire_us_form {
+    min-width: 106%;
+    height: 600px;
+    margin-top:0;
 }
 	/*Section-2*/
 .s2_flex
