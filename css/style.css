@@ -934,7 +934,7 @@ h3
 }
 /*Header hire us form*/
 .bg_hire_us_form {
-    width: 100%;
+    min-width: 106%;
     height: 600px;
     margin-top:0;
 }
